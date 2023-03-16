@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.button {
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+#discord-button {
+    background: linear-gradient(to right, #7289da, #444FAD);
+}
+
+#steam-button {
+    background: linear-gradient(to right, #1b2838, #0055AA);
+}
+
+#dota-button {
+    background: linear-gradient(to right, #FF0000, #AA0000);
+}
+
+#close{
+    background: linear-gradient(to right, black, white);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
